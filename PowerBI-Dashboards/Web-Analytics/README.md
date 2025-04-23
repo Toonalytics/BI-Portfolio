@@ -1,5 +1,5 @@
 #  eCommerce Website Analytics
-** This project was done for ClickNest- an ecommerce website to understand trends and track key engagement metrics**
+**This project was done for ClickNest- an ecommerce website to understand trends and track key engagement metrics**
 
 ![e1](https://github.com/user-attachments/assets/a6dfc840-5639-4bdf-8a29-169d7d5c1b34)
 ---
