@@ -1,8 +1,12 @@
 #  Netflix Data Analysis
 
-**This project focuses on revealing insights about the different content types on the movie streaming service-Netflix.**
+## Overview
+
+*This project focuses on revealing insights about the different content types on the movie streaming service-Netflix.*
 ![N1](https://github.com/user-attachments/assets/2f470bf0-109e-4ea4-a94a-b29677c12fd9)
 
+## Findings
+Some of the findings worthy of note are:
 ![N2](https://github.com/user-attachments/assets/2da1c093-0baf-4426-9db3-9a82a3128d93)
 
 ![N3](https://github.com/user-attachments/assets/783b2c91-e907-49c9-8272-64695d9d59ff)
