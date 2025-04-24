@@ -1,1 +1,79 @@
+/* Reset some basic styles */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+header {
+  background: #1e3a8a;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+#projects {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #1e3a8a;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 
