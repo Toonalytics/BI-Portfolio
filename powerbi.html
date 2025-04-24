@@ -9,38 +9,96 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5f3ff;
+      font-family: 'Sansation', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #6c5ce7;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .project-preview {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .project-item {
+      width: 32%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+    }
+    .project-item img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #6c5ce7;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1 class="sansation-bold">Power BI Projects</h1>
     <nav>
       <a href="/index.html">Home</a>
-      <a href="/powerbi.html" class="active">Power BI</a>
-      <a href="/sql.html">SQL</a>
-      <a href="/python.html">Python</a>
+      <a href="/powerbi.html">Back to Power BI</a>
     </nav>
   </header>
 
-  <main class="projects-container">
-    <section class="project-card">
-      <img src="https://github.com/user-attachments/assets/2f470bf0-109e-4ea4-a94a-b29677c12fd9" alt="Netflix Project Preview" />
-      <h2>Netflix Data Analysis</h2>
-      <p>This project explores the types of content available on Netflix, providing insights into trends, genres, and distribution over time.</p>
-      <a href="/projects/powerbi/netflix.html">View project</a>
-    </section>
+  <main>
+    <section>
+      <h2>Power BI Projects</h2>
+      <div class="project-preview">
+        <!-- Netflix Analysis -->
+        <div class="project-item">
+          <h3>Netflix Analysis</h3>
+          <p>Explore insights into the content types and trends on Netflix.</p>
+          <img src="https://github.com/user-attachments/assets/2f470bf0-109e-4ea4-a94a-b29677c12fd9" alt="Netflix Analysis" />
+          <a href="netflix.html">View Project</a>
+        </div>
 
-    <section class="project-card">
-      <img src="https://github.com/user-attachments/assets/e7634568-8d7c-4510-8ce4-0c7d25f12d08" alt="Customer Segmentation Preview" />
-      <h2>Customer Segmentation Dashboard</h2>
-      <p>This dashboard helps a small business owner identify distinct customer groups and tailor engagement strategies.</p>
-      <a href="/projects/powerbi/customer-segmentation.html">View project</a>
-    </section>
+        <!-- Customer Segmentation -->
+        <div class="project-item">
+          <h3>Customer Segmentation</h3>
+          <p>Analyze customer behaviors and trends for better business decisions.</p>
+          <img src="https://github.com/user-attachments/assets/e7634568-8d7c-4510-8ce4-0c7d25f12d08" alt="Customer Segmentation" />
+          <a href="customer-segmentation.html">View Project</a>
+        </div>
 
-    <section class="project-card">
-      <img src="https://github.com/user-attachments/assets/a6dfc840-5639-4bdf-8a29-169d7d5c1b34" alt="Ecommerce Website Preview" />
-      <h2>ClickNest eCommerce Website Analytics</h2>
-      <p>A project focused on understanding user behavior, engagement metrics, and improving online store performance.</p>
-      <a href="/projects/powerbi/ecommerce.html">View project</a>
+        <!-- eCommerce Website Analysis -->
+        <div class="project-item">
+          <h3>eCommerce Website Analysis</h3>
+          <p>Understand trends and track key engagement metrics for ClickNest.</p>
+          <img src="https://github.com/user-attachments/assets/a6dfc840-5639-4bdf-8a29-169d7d5c1b34" alt="eCommerce Analysis" />
+          <a href="ecommerce.html">View Project</a>
+        </div>
+      </div>
     </section>
   </main>
 
