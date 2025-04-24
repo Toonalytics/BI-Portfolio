@@ -4,22 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ClickNest eCommerce Website Analytics</title>
+  <link rel="stylesheet" href="/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
+    /* Global Styles */
     body {
       font-family: 'Sansation', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
+      background-color: #f4f4f9;
+      color: #333;
     }
 
+    /* Header Styles */
     header {
-      background-color: #333;
+      background-color: #2e2e2e;
       color: white;
       padding: 20px 0;
       text-align: center;
@@ -27,64 +28,69 @@
 
     header h1 {
       margin: 0;
-      font-size: 2.5em;
+      font-size: 2.5rem;
+      font-weight: 700;
     }
 
-    header nav {
-      margin-top: 10px;
+    nav {
+      margin-top: 15px;
     }
 
-    header nav a {
+    nav a {
       color: white;
-      margin: 0 15px;
       text-decoration: none;
-      font-weight: bold;
+      margin: 0 15px;
+      font-weight: 400;
+      font-size: 1rem;
     }
 
-    header nav a:hover {
+    nav a:hover {
       text-decoration: underline;
     }
 
+    /* Main Content Styles */
     main {
-      padding: 40px;
       max-width: 1200px;
-      margin: 0 auto;
-      flex-grow: 1;
+      margin: 40px auto;
+      padding: 0 20px;
     }
 
-    .project-detail section {
-      margin-bottom: 40px;
+    .project-detail {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .project-detail h2 {
-      font-size: 1.8em;
-      margin-bottom: 15px;
-      color: #333;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      font-weight: 700;
     }
 
     .project-detail p {
-      font-size: 1.1em;
+      font-size: 1.1rem;
       line-height: 1.6;
-      color: #555;
+      margin-bottom: 20px;
     }
 
     .project-detail img {
+      width: 100%;
       max-width: 100%;
       height: auto;
-      display: block;
-      margin: 20px 0;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
 
+    /* Footer Styles */
     footer {
-      background-color: #333;
+      background-color: #2e2e2e;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
       width: 100%;
-    }
-
-    footer p {
-      margin: 0;
     }
   </style>
 </head>
@@ -106,6 +112,18 @@
 
     <section>
       <h2>Findings</h2>
-      <p>Some of the key insights gathered include:</p>
       <img src="https://github.com/user-attachments/assets/308d0b73-5c81-4b0f-a5e6-d8a963f7f3a8" alt="Finding 1" />
-      <img src="https://github.com/user-attachments/assets/256d61c6-7328-475e-9109-31c985
+      <img src="https://github.com/user-attachments/assets/256d61c6-7328-475e-9109-31c9851a8e9e" alt="Finding 2" />
+    </section>
+
+    <section>
+      <h2>Recommendations</h2>
+      <img src="https://github.com/user-attachments/assets/e8d6372e-201a-4f1b-b6df-5b9423940211" alt="Recommendations" />
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Oluwatooni | Powered by GitHub Pages</p>
+  </footer>
+</body>
+</html>
