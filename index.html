@@ -1,55 +1,106 @@
+<!-- Updated Home Page (index.html) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Toonalytics | BI Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- Google Fonts: Sansation -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oluwatooni's BI Analyst Portfolio</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5f3ff;
+      font-family: 'Sansation', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #6c5ce7;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .project-card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: center;
+    }
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .project-card h3 {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+    footer {
+      background-color: #6c5ce7;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1 class="sansation-bold">Toonalytics</h1>
-    <p class="sansation-light">Business Intelligence Analyst Portfolio</p>
+    <h1 class="sansation-bold">Oluwatooni's Data Analyst Portfolio</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="powerbi.html">Power BI</a>
-      <a href="sql.html">SQL</a>
-      <a href="python.html">Python</a>
+      <a href="/index.html">Home</a>
+      <a href="/powerbi.html">Power BI</a>
+      <a href="/sql.html">SQL</a>
+      <a href="/python.html">Python</a>
+      <a href="/about.html">About Me</a>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2 class="sansation-regular">Welcome!</h2>
-      <p class="sansation-light">Explore my Business Intelligence projects, ranging from interactive dashboards to advanced analytics with Python and SQL.</p>
-    </section>
+  <main class="project-list">
+    <div class="project-card">
+      <a href="powerbi.html">
+        <img src="https://github.com/user-attachments/assets/2f470bf0-109e-4ea4-a94a-b29677c12fd9" alt="Netflix Data Analysis" />
+        <h3>Netflix Data Analysis</h3>
+        <p>A deep dive into Netflix’s content and viewer patterns.</p>
+      </a>
+    </div>
 
-    <section class="project-cards">
-      <div class="card">
-        <h3 class="sansation-bold">Power BI Projects</h3>
-        <p>Interactive dashboards for business insights</p>
-        <a href="powerbi.html" class="project-link">View Projects</a>
-      </div>
-      <div class="card">
-        <h3 class="sansation-bold">SQL Projects</h3>
-        <p>Data exploration and transformation with SQL</p>
-        <a href="sql.html" class="project-link">View Projects</a>
-      </div>
-      <div class="card">
-        <h3 class="sansation-bold">Python Projects</h3>
-        <p>Analytics, automation, and visualization with Python</p>
-        <a href="python.html" class="project-link">View Projects</a>
-      </div>
-    </section>
+    <div class="project-card">
+      <a href="customer-segmentation.html">
+        <img src="https://github.com/user-attachments/assets/e7634568-8d7c-4510-8ce4-0c7d25f12d08" alt="Customer Segmentation" />
+        <h3>Customer Segmentation</h3>
+        <p>Insights for small businesses through customer data analysis.</p>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <a href="ecommerce.html">
+        <img src="https://github.com/user-attachments/assets/a6dfc840-5639-4bdf-8a29-169d7d5c1b34" alt="Ecommerce Website Analytics" />
+        <h3>eCommerce Website Analytics</h3>
+        <p>Analyze key metrics and trends from the ClickNest platform.</p>
+      </a>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Oluwatooni | <a href="https://github.com/toonalytics" target="_blank">GitHub</a></p>
+    <p>&copy; 2025 Oluwatooni | Powered by GitHub Pages</p>
   </footer>
 </body>
 </html>
