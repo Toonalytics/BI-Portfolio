@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google Fonts: Sansation -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Toonalytics | BI Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts: Sansation -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
+    <h1 class="sansation-bold">Toonalytics</h1>
+    <p class="sansation-light">Business Intelligence Analyst Portfolio</p>
     <nav>
-      <a href="#about" class="nav-link">About Me</a>
-      <a href="#projects" class="nav-link">Projects</a>
-      <a href="#contact" class="nav-link">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="powerbi.html">Power BI</a>
+      <a href="sql.html">SQL</a>
+      <a href="python.html">Python</a>
     </nav>
   </header>
 
-  <section id="intro">
-    <div class="intro-content">
-      <img src="assets/profile.jpg" alt="Oluwatooni" class="profile-img" />
-      <h1>Hi, I'm Oluwatooni!</h1>
-      <p>Business Intelligence Analyst passionate about transforming data into impactful insights. I specialize in Power BI, SQL, and Python.</p>
-    </div>
-  </section>
+  <main>
+    <section>
+      <h2 class="sansation-regular">Welcome!</h2>
+      <p class="sansation-light">Explore my Business Intelligence projects, ranging from interactive dashboards to advanced analytics with Python and SQL.</p>
+    </section>
 
-  <section id="projects">
-    <h2>Featured Projects</h2>
-    <div class="project-links">
-      <a href="projects/powerbi.html" class="project-link">Power BI Dashboards</a>
-      <a href="projects/sql.html" class="project-link">SQL Projects</a>
-      <a href="projects/python.html" class="project-link">Python Projects</a>
-    </div>
-  </section>
+    <section class="project-cards">
+      <div class="card">
+        <h3 class="sansation-bold">Power BI Projects</h3>
+        <p>Interactive dashboards for business insights</p>
+        <a href="powerbi.html" class="project-link">View Projects</a>
+      </div>
+      <div class="card">
+        <h3 class="sansation-bold">SQL Projects</h3>
+        <p>Data exploration and transformation with SQL</p>
+        <a href="sql.html" class="project-link">View Projects</a>
+      </div>
+      <div class="card">
+        <h3 class="sansation-bold">Python Projects</h3>
+        <p>Analytics, automation, and visualization with Python</p>
+        <a href="python.html" class="project-link">View Projects</a>
+      </div>
+    </section>
+  </main>
 
-  <footer id="contact">
-    <p>Want to connect? <a href="mailto:toonalytics@example.com">Email me!</a></p>
+  <footer>
+    <p>&copy; 2025 Oluwatooni | <a href="https://github.com/toonalytics" target="_blank">GitHub</a></p>
   </footer>
 </body>
 </html>
