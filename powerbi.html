@@ -1,4 +1,4 @@
-<!-- powerbi.html -->
+<!-- Updated Power BI Project Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,27 +29,24 @@
       color: #fff;
       font-weight: bold;
     }
-    main {
+    .project-detail {
       padding: 2rem;
+      max-width: 900px;
+      margin: auto;
     }
     section {
       margin-bottom: 2rem;
     }
-    .project-preview {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    .project-item {
-      width: 32%;
-      background-color: white;
+    .image-container {
+      background-color: #ffffff;
       border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      margin-bottom: 1.5rem;
       padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      margin-top: 1rem;
     }
-    .project-item img {
-      width: 100%;
+    img {
+      max-width: 100%;
+      height: auto;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
@@ -67,37 +64,34 @@
     <h1 class="sansation-bold">Power BI Projects</h1>
     <nav>
       <a href="/index.html">Home</a>
-      <a href="/powerbi.html">Back to Power BI</a>
+      <a href="/powerbi.html">Power BI</a>
+      <a href="/sql.html">SQL</a>
+      <a href="/python.html">Python</a>
     </nav>
   </header>
 
-  <main>
+  <main class="project-detail">
     <section>
-      <h2>Power BI Projects</h2>
-      <div class="project-preview">
-        <!-- Netflix Analysis -->
-        <div class="project-item">
-          <h3>Netflix Analysis</h3>
-          <p>Explore insights into the content types and trends on Netflix.</p>
-          <img src="https://github.com/user-attachments/assets/2f470bf0-109e-4ea4-a94a-b29677c12fd9" alt="Netflix Analysis" />
-          <a href="netflix.html">View Project</a>
-        </div>
+      <h2>Netflix Data Analysis</h2>
+      <p>This project focuses on revealing insights about the different content types on the movie streaming service Netflix.</p>
+      <div class="image-container">
+        <img src="https://github.com/user-attachments/assets/2f470bf0-109e-4ea4-a94a-b29677c12fd9" alt="Netflix Data Analysis Overview" />
+      </div>
+    </section>
 
-        <!-- Customer Segmentation -->
-        <div class="project-item">
-          <h3>Customer Segmentation</h3>
-          <p>Analyze customer behaviors and trends for better business decisions.</p>
-          <img src="https://github.com/user-attachments/assets/e7634568-8d7c-4510-8ce4-0c7d25f12d08" alt="Customer Segmentation" />
-          <a href="customer-segmentation.html">View Project</a>
-        </div>
+    <section>
+      <h2>Customer Segmentation</h2>
+      <p>This project helps small business owners understand their customer base using Power BI.</p>
+      <div class="image-container">
+        <img src="https://github.com/user-attachments/assets/e7634568-8d7c-4510-8ce4-0c7d25f12d08" alt="Customer Segmentation Overview" />
+      </div>
+    </section>
 
-        <!-- eCommerce Website Analysis -->
-        <div class="project-item">
-          <h3>eCommerce Website Analysis</h3>
-          <p>Understand trends and track key engagement metrics for ClickNest.</p>
-          <img src="https://github.com/user-attachments/assets/a6dfc840-5639-4bdf-8a29-169d7d5c1b34" alt="eCommerce Analysis" />
-          <a href="ecommerce.html">View Project</a>
-        </div>
+    <section>
+      <h2>ClickNest eCommerce Website Analytics</h2>
+      <p>This project helps track key engagement metrics and trends for the eCommerce website, ClickNest.</p>
+      <div class="image-container">
+        <img src="https://github.com/user-attachments/assets/a6dfc840-5639-4bdf-8a29-169d7d5c1b34" alt="Ecommerce Website Analytics" />
       </div>
     </section>
   </main>
